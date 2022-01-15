@@ -1,0 +1,5 @@
+p.hyphen {
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;-web
+}
