@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+crossorigin="anonymous">
+
+<link rel="stylesheet" href="./styles/custom.css">
+
+</head>
+
+<body class="d-flex flex-column min-vh-100 bg-dark text-light">
+
+
+<div>
+<header>
+	<div class="container-fluid bg-primary">
+	<div class="text-center fs-1 text-uppercase py-5">
+		<a class=" text-decoration-none text-light h1" href="./">
+			ArtSci Symposium</a>
+	</div>
+	<div class="nav justify-content-center text-uppercase py-3 mx-auto">
+		<a class="nav-item mx-5 text-decoration-none text-light" 
+			href="./artsci/about.html">About</a>
+		<a class="nav-item mx-5 text-decoration-none text-light"
+		   href="./artsci/faq.html">FAQ</a>
+      <a class="nav-item mx-5 text-decoration-none
+				text-light" href="./artsci/participate.html">Participate</a>
+      <a class="nav-item mx-5 text-decoration-none
+				text-light" href="./artsci/volunteer.html">Volunteer</a>
+	  <a class="nav-item mx-5 text-decoration-none text-light"
+		 href="./artsci/contact.html">Contact</a>
+      <a class="nav-item mx-5 text-decoration-none text-light"
+		  href="#">Store</a>
+	</div>
+	</div>
+</header>
+</div>
+
+<div>
+
+<div class="text-light py-3" style="background-color: black">
+	<div class="container">
+	<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active" data-bs-interval="10000">
+				<img src="./images/ArtSci_Logo_Draft_2.png" class="d-block w-100"
+				alt="logo" style="filter: invert(1)">
+			</div>
+			<div class="carousel-item" data-bs-interval="2000">
+				<img src="./images/david.jpg" class="d-block w-100" alt="david">
+			</div>
+			<div class="carousel-item">
+				<img src="./images/sky.jpg" class="d-block w-100"
+				alt="daijoubu">
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button"
+			data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button"
+			data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+	</div>
+</div>
+
+<div class="text-light">
+	<div class="container">
+	<div id="About" class="py-2 text-center">
+		<h1 class="fs-1">About Us</h1>
+		<div class="fs-3 text-justify">
+		<p class="py-2"> 
+			A collaboration between BMAV and APSA, 
+			ArtSci Symposium is an event that allows individuals from the
+			Biological Science fields to share with their fellow students and 
+			mentors personal projects that exemplify their knowledge and their
+			passions.
+
+		</p>
+		<p class="py-2">
+			From research to art work, explore and discover what the students 
+			of Rowan have to offer to world of Biology.
+		</p>
+		</div>
+	</div>
+	</div>
+</div>
+
+<div class="text-light bg-primary">
+	<div class="container">
+		<div id="news" class="text-center fs-1">
+		News and Announcements
+		</div>
+		<div class="fs-3 text-justify text-center">
+			<a class="twitter-timeline" data-height="400" data-theme="dark" href="https://twitter.com/ArtSciSymposium?ref_src=twsrc%5Etfw">ArtSci Updates</a>
+		</div>
+	</div>
+</div>
+
+<div class="bg-light text-dark">
+	<div class="container">
+	<div id="interest" class="py-4 text-center">
+		<h1 class="fs-1">Interested?</h1>
+
+		<div class="fs-3">
+			<p>
+				Being involved can mean many things!
+				From volunteers to students to faculty, just fill out the
+				appropriate form to be a part of ArtSci.
+			</p>
+		</div>
+
+		<div class="accordion" id="interestForms">
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="volHead">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#volBody" aria-expanded="false" aria-controls="volBody">
+					Volunteers
+				</button>
+			  </h2>
+			  <div id="volBody" class="accordion-collapse collapse" aria-labelledby="volHead" data-bs-parent="#interestForms">
+				<div class="accordion-body">
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoD5K9PXlpyCqbW_UN3igfBXAiGm9UEYXP-gNogil1xAFF-g/viewform?embedded=true"
+					width="640" height="640" frameborder="0" marginheight="0"
+					marginwidth="0">
+					Loading…
+				</iframe>
+				</div>
+			  </div>
+			</div>
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="studHead">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studBody" aria-expanded="false" aria-controls="studBody">
+					Students
+				</button>
+			  </h2>
+			  <div id="studBody" class="accordion-collapse collapse" aria-labelledby="studHead" data-bs-parent="#interestForms">
+				<div class="accordion-body">
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdeue_UL2QNIfrWhcqukvtEgRvk5iQtrQa0tn6JfDnTsz88Fw/viewform?embedded=true" 
+					width="640" height="640" frameborder="0" marginheight="0"
+					marginwidth="0">
+					Loading…
+				</iframe>
+				</div>
+			  </div>
+			</div>
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="falHead">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#falBody" aria-expanded="false" aria-controls="falBody">
+					Faculty
+				</button>
+			  </h2>
+			  <div id="falBody" class="accordion-collapse collapse" aria-labelledby="falHead" data-bs-parent="#interestForms">
+				<div class="accordion-body">
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScF5fSZg5ex-csfbUCANJt4EvEOGt3ECN5yPnm8kulAusfHwg/viewform?embedded=true"
+					width="640" height="640" frameborder="0" marginheight="0"
+					marginwidth="0">
+					Loading…
+				</iframe>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	</div>
+	</div>
+</div>
+</div>
+
+<footer class="text-dark bg-secondary mt-auto">
+	<div class="container py-2">
+		<p class="text-uppercase"><strong>Need more information? Contact Us!</strong></p>
+	</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html> 
