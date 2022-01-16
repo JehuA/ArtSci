@@ -44,10 +44,46 @@ crossorigin="anonymous">
 
 <div class="bg-dark text-light">
     <div class="container">
+        <p class="fs-2 text-center py-3">
         Want to contact us? Send us your email!
+        </p>
 	</div>
 	<div class="container">
-	
+        <form action="mailto:ananor86@students.rowan.edu" method="post" enctype="text/plain"
+        class="needs-validation">
+        <div class="row my-2">
+            <div class="col">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" required>
+            </div>
+            <div class="col">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" required>
+            </div>
+        </div>
+        <div class="row my-2">
+            <div>
+            <label for="role">What role are you interested in?</label>
+            <select id="role" class="form-select" aria-label="Default select example">
+                <option selected value="undecided">Undecided</option>
+                <option value="student">Student</option>
+                <option value="faculty">Faculty</option>
+                <option value="volunteer">Volunteer</option>
+            </select>
+            </div>
+        </div>
+        <div class="row my-2">
+            <div>
+                <label for="email" class="form-label">E-Mail</label>
+                <input type="text" class="form-control" id="email" required>
+            </div>
+        </div>
+        <div class="row my-2">
+            <div>
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+        </div>
+        </form>
 	</div>
 </div>
 </div>
