@@ -1,0 +1,13 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+body {
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    hyphens: auto;
+}
+
+.custom-image-scale {
+    height: inherit;
+    width: inherit;
+}
