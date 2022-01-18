@@ -9,51 +9,96 @@ rel="stylesheet"
 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 crossorigin="anonymous">
 
-<link rel="stylesheet" href="../styles/custom.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+<link rel="stylesheet" href="../styles/rowan.css">
+<link rel="stylesheet" href="../styles/hyphen.css">
+<link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
 
 </head>
 
-<body class="d-flex flex-column min-vh-100 bg-dark text-light">
-
+<body class="d-flex flex-column min-vh-100 bg-light text-dark">
 <div>
-    <header>
-        <div class="container-fluid bg-primary">
-        <div class="text-center fs-1 text-uppercase py-5">
-            <a class=" text-decoration-none text-light h1" href="../.">
-                ArtSci Symposium</a>
-        </div>
-        <div class="nav justify-content-center text-uppercase py-3 mx-auto">
-            <a class="nav-item mx-5 text-decoration-none text-light" 
-                href="about.html">About</a>
-            <a class="nav-item mx-5 text-decoration-none text-light"
-               href="faq.html">FAQ</a>
-          <a class="nav-item mx-5 text-decoration-none
-                    text-light" href="participate.html">Participate</a>
-          <a class="nav-item mx-5 text-decoration-none
-                    text-light" href="volunteer.html">Volunteer</a>
-          <a class="nav-item mx-5 text-decoration-none text-light"
-             href="contact.html">Contact</a>
-          <a class="nav-item mx-5 text-decoration-none text-light"
-              href="#">Store</a>
-        </div>
-        </div>
-    </header>
-</div>
-
-<div>
-
-<div class="bg-dark text-light">
+<header>
+	<div class="bg-primary pt-3">
 	<div class="container">
-		<div id="interest" class="py-4 text-center">
-            <h1 class="fs-1">Student or Faculty?</h1>
-    
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary text-dark">
+		<div class="container-fluid">
+		  <a class="navbar-brand fs-3" href="../.">ArtSci Symposium</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="../.">Home</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					About Us
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <li><a class="dropdown-item" href="about.html">Mission</a></li>
+				  <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+				</ul>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Interest Forms
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <li><a class="dropdown-item" href="participate.html">Participate</a></li>
+				  <li><a class="dropdown-item" href="volunteer.html">Volunteer</a></li>
+				</ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="sponsor.html">Sponsors</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="http://artscisymposium-2.myshopify.com/">Store</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	</div>
+	</div>
+</header>
+</div>
+<div>
+<div class="bg-light text-dark">
+	<div class="container">
+		<div id="interest" class="my-4">
+            <h1 class="fs-1 text-center">Student or Faculty?</h1>
+			<hr class="my-3">
 			<div class="fs-3">
                 <p class="hyphen">
-                    Are you a student or faculty interested in participating? Then fill out one of those forms!
+                   The BMAV department is made up of students who are well
+				   versed in both the sciences and arts. Their primary role 
+				   is to comprehend research material and visually translate 
+				   the information. Prior to the symposium, a BMAV student will
+				   be paired with a Rowan University research faculty member 
+				   and/or student. 
                 </p>
+				<p class="hyphen">
+				   The two parties will learn how to work together
+				   to develop effective visual elements. This service and 
+				   collaboration is available for all interested labs.
+				   Due to the limited number of available BMAV students, 
+				   requests will be taken on a first-come-first-serve basis.
+				</p>
+			<hr class="my-3">
             </div>
             <div class="accordion" id="interestForms">
-                <div class="accordion-item">
+				<div class="fs-5 mt-3">
+					<p class="hyphen">
+					If you are a student interested in presenting your research
+					(lab-associated or independent) we ask you to fill out the
+					following Google Form.
+					Any potential questions (general or
+					project-specific) can be added to the end of the form.
+					</p>
+				</div>
+                <div class="accordion-item text-center">
                   <h2 class="accordion-header" id="studHead">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studBody" aria-expanded="false" aria-controls="studBody">
                         Students
@@ -69,7 +114,15 @@ crossorigin="anonymous">
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
+				<div class="fs-5 mt-3">
+					<p class="hyphen">
+					For any faculty members interested in presenting their 
+					research we ask you to fill out the following Google Form.
+					Any potential questions (general or project-specific) 
+					can be added to the end of the form.
+					</p>
+				</div>
+                <div class="accordion-item text-center">
                   <h2 class="accordion-header" id="falHead">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#falBody" aria-expanded="false" aria-controls="falBody">
                         Faculty
@@ -91,9 +144,20 @@ crossorigin="anonymous">
 </div>
 </div>
 
-<footer class="text-dark bg-secondary mt-auto">
-	<div class="container py-2">
-		<p class="text-uppercase"><strong>Need more information? Contact Us!</strong></p>
+<footer class="text-light bg-dark mt-auto">
+	<div class="container py-2 text-center">
+		<div class="row">
+			<p class="text-uppercase"><strong>Contact Us!</strong></p>
+		</div>
+		<div class="row justify-content-center">
+			<a class="bi-twitter col-sm-auto" href="https://mobile.twitter.com/artscisymposium">
+				<i> @ArtSciSymposium</i>
+			</a>
+			<a class="bi-instagram col-sm-auto" href="https://www.instagram.com/artsci_symposium/">
+				<i> @artsci_symposium</i>
+			</a>
+			<i class="bi-envelope col-sm-auto text-primary"> rowanartsci@gmail.com</i>
+		</div>
 	</div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
