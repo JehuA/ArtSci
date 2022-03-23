@@ -11,3 +11,11 @@ body {
     height: inherit;
     width: inherit;
 }
+
+
+.carousel-item img {
+    object-fit: scale-down;
+    object-position: center;
+    height: 70vh;
+    overflow: hidden;
+}
