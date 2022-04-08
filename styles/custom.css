@@ -7,15 +7,29 @@ body {
     hyphens: auto;
 }
 
-.custom-image-scale {
-    height: inherit;
-    width: inherit;
+.rowan_yellow_bg {
+    background-color: #FFCC00;
+
 }
 
+.rowan_brown_bg {
+    background-color: #57150B;
+}
 
-.carousel-item img {
-    object-fit: scale-down;
-    object-position: center;
-    height: 70vh;
-    overflow: hidden;
+nav ul {
+    display: inline;
+}
+
+nav ul li {
+    float: right;
+    list-style-type: none;
+
+}
+
+#id {
+    float: left;
+    max-width: fit-content;
+    width: 200px;
+
+
 }
